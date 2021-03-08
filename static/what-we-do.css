@@ -1,0 +1,121 @@
+li {
+    /* display: inline; */
+    list-style-type: none;
+    margin-left: 0px;
+}
+
+li a {
+    padding: 0 60px;
+    text-decoration: none;
+    color: black;
+    /* border-right: 1px solid grey; */
+}
+
+li:last-child {
+    border-right: none;
+}
+
+#redbox{
+    background-color: rgb(197, 46, 46);
+}
+
+hr{
+    width: 90%;
+    background-color: black;
+}
+h2 {
+    font: 33px sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+.bottom-text {
+    position: relative;
+    z-index: 1;
+}
+.bottom-text:before {
+    content: "";
+    margin: 0 auto;
+    /* this centers the line to the full width specified
+    position: absolute;
+    /* positioning must be absolute here, and relative positioning must be applied to the parent */
+    top: 50%;
+    left: 0;
+    right:25%;
+    bottom: 0;
+    width: 60%;
+    z-index: -1;
+    border-top: 2px solid #afafaf;
+    text-align: center;
+}
+.bottom-text span {
+/* to hide the lines from behind the text, you have to set the background color the same as the container */
+    background-color:rgb(255, 255, 255);
+    margin: 1px;
+    margin-left: 20px;
+/* background-color: lawngreen; */
+
+}
+span a{
+    color: rgb(0, 0, 0);
+}
+/* .centerTop ul li{
+    margin-left: 25px;
+} */
+
+section {
+    background:linear-gradient(#923530,#772E28);
+    /* background-color: brown; */
+    margin: 0px;
+}
+
+.section-container {
+    background-color: inherit;
+    color: white;
+    list-style-type: none;
+    margin: 10px;
+    display: list-item;
+}
+
+.container .image {
+  width: 50%;
+  float: left;
+  /* border: 2px solid black; */
+}
+
+.container2 img {
+  width: calc(100% - (10px * 2));
+  margin: 0 10px;
+}
+  
+body {
+    background-image: url('https://www.welovesolo.com/wp-content/uploads/2014/10/p175aeururj346a0l5k1iq1130s9-details.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+hr.divider {
+    background-color: white;
+    margin-top: -10px;
+}
+
+.container1 {
+    text-align: left;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.page-container2{
+    margin-top: 5px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 16px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 40px;
+}

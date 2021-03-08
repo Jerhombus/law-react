@@ -1,0 +1,438 @@
+.nav-border {
+    padding: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 100%;
+    margin:10px;
+}
+
+.centerTop ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.centerTop li {
+    display: inline;
+    float:inherit;
+    border-right: 1px solid rgb(148, 148, 148);
+}
+
+.centerTop li a {
+    padding: 0% 20px;
+    margin: auto;
+    text-decoration: none;
+    color: black; 
+}
+
+li:last-child {
+    border-right: none;
+}
+
+/* #redbox{
+    background-color: rgb(146, 39, 39);
+    color: #fff;
+    width: 80%;
+    height: 800px;
+    padding: 20px; */
+/*<<<<<<< main
+=======*?
+.main-content{
+    -webkit-column-count: 3;
+    /* background-color: rgb(39, 146, 57);
+    column-count: 3;
+    column-rule-color: blueviolet;
+    column-rule-style: solid;
+    column-rule-width: 10px;
+    column-gap:1px; */
+    
+
+/* #main-info{
+    margin-left: 0px; */
+    
+
+#h3{
+    background-color: #fff;}
+
+
+hr{
+    width: 90%;
+    background-color: black;
+    
+}
+
+h2 {
+    font: 33px sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+.bottom-text {
+    position: relative;
+    z-index: 1;
+}
+.bottom-text:before {
+    content: "";
+    margin: 0 auto;
+    /* this centers the line to the full width specified */
+    position: absolute;
+    /* positioning must be absolute here, and relative positioning must be applied to the parent */
+    top: 50%;
+    left:25px;
+    right:25%;
+    bottom: 0;
+    width: 60%;
+    z-index: -1;
+    border-top: 2px solid #afafaf;
+    text-align: center;
+}
+.bottom-text span {
+/* to hide the lines from behind the text, you have to set the background color the same as the container */
+    background-color:rgb(255, 255, 255);
+    margin: 1px;
+    margin-left: 3px;
+/* background-color: lawngreen; */
+
+}
+span a{
+    color: rgb(0, 0, 0);  
+}
+
+.centerTop ul li{
+    margin-left: 25px;
+}
+
+
+#left-column{
+    float: right;
+    padding: 10x;
+    border: 5px ; 
+    margin: 40px;
+    width: 300px;
+    height: 600px;
+    background-color:#923530;
+    text-align: justify;
+      
+}
+image{
+    float: right;
+    padding: 10px;
+    border: 20px;
+    border-style: double;
+}
+
+body {
+    background-image: url('https://www.welovesolo.com/wp-content/uploads/2014/10/p175aeururj346a0l5k1iq1130s9-details.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+.page-container{
+    margin-top: 5px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 40px;
+}
+.footer-container{
+    padding: 10px;
+    border-top: 2px solid black;
+    width: 98%;
+    margin:10px;
+
+}
+#login-butt{
+    float: right;
+    margin-right: 20px;
+    margin-top: 0px;
+    background-color: rgb(160, 160, 160);
+    border: none;
+}
+
+
+.leftRedBox{
+    background:linear-gradient(#923530,#772E28);
+    color: white;
+    border: solid;
+    border-color: black;
+    border-width: thin;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-height: 380px;
+}
+
+.leftRedBox p{
+    margin-left: 5%;
+    font-size:12px;
+
+}
+.leftRedBox h2{
+    font-size: 20px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border-style: solid;
+    border-color: white;
+}
+.leftRedBox hr{
+    background-color: white;
+}
+
+.flex-container{
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    max-width: 100%;
+    
+}
+
+.rightTextBox{
+    margin-left: 2%;
+}
+
+.column{
+    float: left;
+}
+.column hr{
+    width: 100%;
+    background-color: lightgray;
+    height: 1px;
+}
+
+.left{
+    width: 65%;
+    margin-bottom: 5%;
+}
+
+.right{
+    width: 30%;
+    margin-left: 5%;
+}
+
+.row2:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-left{
+    width: 600px;
+}
+.col-left span{
+    margin-right: 25%;
+    padding: 0px;
+}
+
+.col-right p{
+    list-style-type: none;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.whiteBackground{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+    margin:100px;
+}
+
+jh1{
+    font: 18px sans-serif;
+    margin-bottom:0px;
+}
+jh2{
+    font: 14px sans-serif;
+    font-weight: 100;
+    margin-top: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+jh3{
+    font:12px sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+jh4{
+    font:14px sans-serif;
+    font-weight: lighter;
+}
+ jh5{
+    font:12px sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+} 
+.jleftpane {
+    width: 25%;
+    height: 100%;
+    float: left;
+    background:linear-gradient(#923530,#772E28);
+    border-collapse: collapse;
+    color: #fff;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+}
+#jleftpane-image{
+border-style: solid;
+border-color: #fff;
+border-width: 2px;
+width: 220px;
+height: 100px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.jmiddlepane {
+    width: 50%;
+    height: 100%;
+    float: left;
+  
+    /* border-collapse: collapse; */
+}
+#jmiddlepane-image{
+    padding: 2px;
+    border-style: solid;
+     border-width: 1px;
+    width: 500px;
+    height: 100px;
+    
+}
+.jmiddlepane-text{
+    margin-top: 25px;
+    margin-left: 5%;
+}
+.jrightpane {
+  width: 24%;
+  height: 100%;
+  position: relative;
+  float: right;
+  background:linear-gradient(#D7CEC5,#DED7D1);
+  border-collapse: collapse;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+#jrightpane-image{
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    width: 225px;
+    height: 100px;
+
+
+}
+.jsecondborder{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    padding-bottom: 4px;
+    padding-top: 4px;
+    margin-left: 30px;
+    padding-left: 4px;
+    margin-right: 20px;
+width: 510px;
+    
+}
+* .jflex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between
+  } */
+  #left-column{
+    float: right;
+    padding: 10x;
+    border: 5px ; 
+    margin: 40px;
+    width: 300px;
+    height: 600px;
+    background-color:#923530;
+    text-align: justify;
+      
+}
+  .dleftpane {
+    width: 700px;
+    height: 444;
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  .dmiddlepane {
+      width: 25%;
+      height: 100%;
+      float: right;
+      background-color: royalblue;
+      border-collapse: collapse;
+  }
+  
+  .drightpane {
+    height: 460px;
+    position: relative;
+    background:linear-gradient(#923530,#772E28);
+    border-collapse: collapse;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-bottom: 20px;
+    color: white;
+    padding: 10px;
+  }
+
+  .dtoppane {
+    width: 100%;
+    height: 100px;
+    border-collapse: collapse;
+    background-color: #4da6ff;
+  }
+  #sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+}
+
+ 
+#dimage{
+width: 300px;
+height: 75px;
+}
+/* #dleftcontainer{
+    border-style: solid;
+    border-color: black;
+    
+} */
+/* .dleftpanel {
+    width: 50%;
+    height: 100%;
+  border-style: solid;
+    border-collapse: collapse;
+} */
+.dsecondborder{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    padding-bottom: 7px;
+    padding-top: 7px;
+    margin-left: 30px;
+    padding-left: 7px;
+    margin-right: 20px;
+    width: 715px;}
+
+#jimage{
+    width: 300px;
+    height: 75px;}

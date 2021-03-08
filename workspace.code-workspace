@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\lawfork"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "lawfirmproj"
+	}
+}
